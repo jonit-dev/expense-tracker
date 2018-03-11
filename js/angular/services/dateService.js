@@ -23,6 +23,17 @@ app.service('dateService', function ($rootScope) {
         return expenses;
     };
 
+    this.isValidDate = function(date) {
+
+            // An invalid date object returns NaN for getTime() and NaN is the only
+            // object not strictly equal to itself.
+        if(typeof date === 'undefined'){
+            return false;
+        }
+
+            return date.getTime() === date.getTime();
+
+    }
 
     this.getDaysInMonth = function (month, year) {
         return new Date(year, month, 0).getDate();

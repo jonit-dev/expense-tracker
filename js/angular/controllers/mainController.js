@@ -62,7 +62,7 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
     $scope.today = new Date();
 
     //start the filter variables based on the last expense record
-    $scope.filter = {
+    $rootScope.filter = {
         month: $rootScope.expenses.data[$rootScope.expenses.data.length-1].date.getMonth(),
         week: $rootScope.expenses.data[$rootScope.expenses.data.length-1].week,
         // month:
@@ -89,7 +89,7 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
 
     ];
 
-    $scope.selectedCategory = $scope.categories[0].id; //set initial value
+    $rootScope.selectedCategory = $scope.categories[0].id; //set initial value
 
 
     $rootScope.labels = expenseService.refreshChart().labels;
@@ -123,24 +123,13 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
 
     $scope.addExpense = function (expense) {
 
-        let label = $scope.categories.find((category) => {
-            if (category.id === $scope.selectedCategory) {
-                return category;
-            }
-        });
-        // console.log(label);
 
-        expense.exCategory = label.name;
-
-
-
-
-        expenseService.addExpense(expense);
+        expenseService.addExpense(expense, $scope.categories);
 
         //save expenses data on local storage
         $scope.$storage.expenses = $rootScope.expenses;
 
-        $fancyModal.close();//close all modals
+
 
         $rootScope.labels = expenseService.refreshChart().labels;
         $rootScope.data = expenseService.refreshChart().data;

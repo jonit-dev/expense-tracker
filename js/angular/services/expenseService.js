@@ -1,4 +1,4 @@
-app.service('expenseService', function ($rootScope, $localStorage, dateService) {
+app.service('expenseService', function ($rootScope, $localStorage, dateService, $fancyModal) {
     this.calculateTotalAmount = function (expenses) {
         let total = 0;
         expenses.forEach((expense) => {
@@ -7,7 +7,53 @@ app.service('expenseService', function ($rootScope, $localStorage, dateService) 
         return total;
     };
 
-    this.addExpense = function (expense) {
+    this.addExpense = function (expense, categories) {
+
+
+        console.log('adding expense');
+
+
+        /* Validation =========================================== */
+
+        if(typeof expense === 'undefined'){
+            alert('Error. Insert some form data!');
+            return false;
+        }
+
+        if(typeof expense.exDescription === 'undefined') {
+            alert('Please, fill a description to insert your expense.');
+            return false;
+        }
+
+        if(!expense.exAmount) {
+            alert('Please, insert a correct amount for your expense.');
+            return false;
+        }
+
+        if(!dateService.isValidDate(expense.exDate)) {
+            alert('Please, insert a valid data!');
+            return false;
+        }
+
+
+        let label = categories.find((category) => {
+            if (category.id === $rootScope.selectedCategory) {
+                return category;
+            }
+        });
+        // console.log(label);
+
+        //set new expense category
+        expense.exCategory = label.name;
+
+
+
+
+
+
+
+        /* Inser new data =========================================== */
+
         $rootScope.expenses.data.push({
             id: $rootScope.expenses.data.length,
             date: expense.exDate,
@@ -19,6 +65,10 @@ app.service('expenseService', function ($rootScope, $localStorage, dateService) 
         $rootScope.expenses.totalAmount = this.calculateTotalAmount($rootScope.expenses.data);
         $rootScope.expenses = dateService.fixDates($rootScope.expenses);
 
+        $fancyModal.close();//close all modals
+
+        //change weeks filter to all
+        $rootScope.filter.week = 0;
     };
 
     this.categoryFix = function() {
