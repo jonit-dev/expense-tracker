@@ -8,7 +8,6 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
     $scope.keyword = "";
 
 
-
     /* ------------------------------------------------------------|
     | LOCALSTORAGE DATA
     *-------------------------------------------------------------*/
@@ -19,14 +18,9 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
     //set expenses data to rootScope, so we can easily manipulate it across other functions
     $rootScope.expenses = {
       data: [
-
       ],
       totalAmount: 0
     };
-
-    // //calculate total amount
-    // $rootScope.totalAmount = expenseService.calculateTotalAmount($rootScope.expenses.data);
-
 
     /* LOCAL STORAGE =========================================== */
     //if theres some previous information, lets update our expenses
@@ -35,6 +29,22 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
         $rootScope.expenses = dateService.fixDates($rootScope.expenses);
         $rootScope.totalAmount = $scope.$storage.expenses.totalAmount;
     }
+
+
+    /* ------------------------------------------------------------|
+    | SETTING UP CHART DATA
+    *-------------------------------------------------------------*/
+
+    $rootScope.categories = [
+        {id: 0, name: 'Food'},
+        {id: 1, name: 'Credit Card'},
+        {id: 2, name: 'Eletronics'},
+    ];
+
+    //loop trough all expenses and setup chart data
+
+    $scope.labels = expenseService.refreshChart().labels;
+    $scope.data = expenseService.refreshChart().data;
 
 
 
@@ -49,8 +59,16 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
         $scope.expense = {
             exDate: null,
             exDescription: null,
-            exAmount: null
+            exAmount: null,
+            exCategory: null
         };
+
+
+
+       $rootScope.expenses.category = $rootScope.categories[0];
+
+
+        console.log($scope.expense.exCategory);
 
 
         $scope.modal = $fancyModal.open({
@@ -63,15 +81,18 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
 
     $scope.addExpense = function (expense) {
 
-
+        expense.exCategory = $rootScope.expenses.category;//save expense category
 
         expenseService.addExpense(expense);
 
+        //save expenses data on local storage
         $scope.$storage.expenses = $rootScope.expenses;
-
 
         $fancyModal.close();//close all modals
 
+        //refresh chart data
+        $scope.labels = expenseService.refreshChart().labels;
+        $scope.data = expenseService.refreshChart().data;
 
 
 

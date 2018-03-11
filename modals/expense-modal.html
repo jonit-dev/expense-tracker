@@ -9,22 +9,30 @@
                         <form>
                             <div class="form-group">
                                 <label for="formGroupExampleInput">Date</label>
-                                <input type="date" ng-model="expense.exDate" class="form-control" id="formGroupExampleInput" placeholder="Format: MM/DD/YYYY">
+                                <input type="date" ng-model="expense.exDate" class="form-control"
+                                       id="formGroupExampleInput" placeholder="Format: MM/DD/YYYY">
                             </div>
                             <div class="form-group">
                                 <label for="formGroupExampleInput2">Description</label>
-                                <input type="text"  ng-model="expense.exDescription" class="form-control" id="formGroupExampleInput2" placeholder="Description">
+                                <input type="text" ng-model="expense.exDescription" class="form-control"
+                                       id="formGroupExampleInput2" placeholder="Description">
                             </div>
 
                             <div class="form-group">
                                 <label for="formGroupExampleInput2">Amount</label>
-                                <input type="number" class="form-control" ng-model="expense.exAmount" id="formGroupExampleInput3" placeholder="Format: X.XX">
+                                <input type="number" class="form-control" ng-model="expense.exAmount"
+                                       id="formGroupExampleInput3" placeholder="Format: X.XX">
                             </div>
+
+                            <select class="form-group custom-select"
+
+                                    ng-model="expenses.category" ng-options="category.id as category.name for category in categories track by category.id">
+
+                            </select>
+
                         </form>
 
                     </div>
-
-
 
 
                 </div>

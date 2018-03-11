@@ -3,401 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a07077e5-0ee1-4078-8892-2fa725ce7c42" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/.babelrc.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/.bower.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/.editorconfig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/.eslintignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/.eslintrc.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/.gitattributes" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/.github/CONTRIBUTING.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/.github/ISSUE_TEMPLATE.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/.stylelintignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/.stylelintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/.travis.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/CNAME" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/CODE_OF_CONDUCT.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/Gemfile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/Gemfile.lock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_config.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_data/breakpoints.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_data/browser-bugs.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_data/browser-features.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_data/colors.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_data/examples.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_data/grays.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_data/nav.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_data/theme-colors.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_data/translations.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_includes/ads.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_includes/callout-danger-async-methods.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_includes/callout-info-mediaqueries-breakpoints.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_includes/callout-warning-color-assistive-technologies.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_includes/docs-navbar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_includes/docs-sidebar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_includes/favicons.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_includes/footer.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_includes/header.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_includes/icons/bootstrap.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_includes/icons/download.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_includes/icons/github.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_includes/icons/import.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_includes/icons/lightning.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_includes/icons/menu.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_includes/icons/slack.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_includes/icons/twitter.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_includes/scripts.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_includes/social.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_layouts/default.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_layouts/docs.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_layouts/examples.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_layouts/home.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_layouts/redirect.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_layouts/simple.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_plugins/bugify.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_plugins/callout.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_plugins/example.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/_plugins/markdown-block.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/brand/bootstrap-outline.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/brand/bootstrap-punchout.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/brand/bootstrap-social-logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/brand/bootstrap-social.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/brand/bootstrap-solid.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/css/docs.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/css/docs.min.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/img/bootstrap-stack.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/img/bootstrap-themes.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/img/favicons/android-chrome-192x192.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/img/favicons/android-chrome-512x512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/img/favicons/apple-touch-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/img/favicons/browserconfig.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/img/favicons/favicon-16x16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/img/favicons/favicon-32x32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/img/favicons/manifest.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/img/favicons/mstile-144x144.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/img/favicons/mstile-150x150.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/img/favicons/mstile-310x150.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/img/favicons/mstile-310x310.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/img/favicons/mstile-70x70.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/img/favicons/safari-pinned-tab.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/js/.eslintrc.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/js/docs.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/js/src/application.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/js/src/ie-emulation-modes-warning.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/js/src/pwa.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/js/vendor/anchor.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/js/vendor/clipboard.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/js/vendor/holder.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/js/vendor/jquery-slim.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/js/vendor/popper.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/scss/_ads.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/scss/_algolia.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/scss/_anchor.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/scss/_brand.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/scss/_browser-bugs.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/scss/_buttons.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/scss/_callouts.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/scss/_clipboard-js.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/scss/_colors.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/scss/_component-examples.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/scss/_content.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/scss/_examples.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/scss/_footer.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/scss/_masthead.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/scss/_nav.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/scss/_sidebar.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/scss/_skiplink.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/scss/_syntax.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/scss/_variables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/assets/scss/docs.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/build/.eslintrc.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/build/.htmllintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/build/change-version.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/build/gcp-key.json.enc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/build/generate-sri.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/build/lint-vars.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/build/postcss.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/build/rollup.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/build/sauce_browsers.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/build/saucelabs-unit-test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/build/ship.sh" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/build/upload-preview.sh" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/build/vnu-jar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/build/workbox.config.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/build/workbox.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/composer.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/about/brand.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/about/license.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/about/overview.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/about/translations.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/browser-bugs.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/content/code.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/content/figures.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/content/images.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/content/reboot.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/content/tables.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/content/typography.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/.eslintrc.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/.stylelintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/album/album.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/album/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/blog/blog.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/blog/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/carousel/carousel.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/carousel/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/checkout/form-validation.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/checkout/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/cover/cover.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/cover/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/dashboard/dashboard.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/dashboard/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/floating-labels/floating-labels.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/floating-labels/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/grid/grid.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/grid/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/jumbotron/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/jumbotron/jumbotron.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/navbar-bottom/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/navbar-fixed/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/navbar-fixed/navbar-top-fixed.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/navbar-static/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/navbar-static/navbar-top.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/navbars/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/navbars/navbar.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/offcanvas/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/offcanvas/offcanvas.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/offcanvas/offcanvas.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/pricing/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/pricing/pricing.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/product/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/product/product.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/screenshots/album.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/screenshots/blog.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/screenshots/carousel.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/screenshots/checkout.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/screenshots/cover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/screenshots/dashboard.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/screenshots/floating-labels.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/screenshots/grid.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/screenshots/jumbotron.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/screenshots/navbar-bottom.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/screenshots/navbar-fixed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/screenshots/navbar-static.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/screenshots/navbars.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/screenshots/offcanvas.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/screenshots/pricing.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/screenshots/product.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/screenshots/sign-in.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/screenshots/starter-template.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/screenshots/sticky-footer-navbar.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/screenshots/sticky-footer.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/sign-in/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/sign-in/signin.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/starter-template/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/starter-template/starter-template.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/sticky-footer-navbar/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/sticky-footer-navbar/sticky-footer-navbar.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/sticky-footer/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/sticky-footer/sticky-footer.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/tooltip-viewport/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/tooltip-viewport/tooltip-viewport.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/examples/tooltip-viewport/tooltip-viewport.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/extend/approach.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/extend/icons.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/extend/index.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/getting-started/accessibility.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/getting-started/best-practices.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/getting-started/browsers-devices.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/getting-started/build-tools.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/getting-started/contents.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/getting-started/download.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/getting-started/introduction.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/getting-started/javascript.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/getting-started/theming.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/getting-started/webpack.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/layout/grid.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/layout/media-object.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/layout/overview.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/layout/utilities-for-layout.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/migration.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/utilities/borders.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/utilities/clearfix.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/utilities/close-icon.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/utilities/colors.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/utilities/display.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/utilities/embed.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/utilities/flex.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/utilities/float.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/utilities/image-replacement.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/utilities/position.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/utilities/screenreaders.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/utilities/sizing.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/utilities/spacing.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/utilities/text.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/utilities/vertical-align.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/docs/4.0/utilities/visibility.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/alert.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/alert.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/button.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/button.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/carousel.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/carousel.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/collapse.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/collapse.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/dropdown.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/dropdown.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/index.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/modal.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/modal.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/popover.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/popover.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/scrollspy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/scrollspy.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/tab.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/tab.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/tooltip.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/tooltip.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/dist/util.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/src/alert.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/src/button.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/src/carousel.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/src/collapse.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/src/dropdown.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/src/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/src/modal.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/src/popover.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/src/scrollspy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/src/tab.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/src/tooltip.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/src/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/karma.conf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/unit/.eslintrc.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/unit/alert.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/unit/button.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/unit/carousel.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/unit/collapse.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/unit/dropdown.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/unit/modal.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/unit/popover.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/unit/scrollspy.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/unit/tab.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/unit/tooltip.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/unit/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/vendor/jquery-1.9.1.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/vendor/qunit.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/vendor/qunit.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/visual/alert.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/visual/button.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/visual/carousel.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/visual/collapse.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/visual/dropdown.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/visual/modal.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/visual/popover.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/visual/scrollspy.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/visual/tab.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/js/tests/visual/tooltip.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/nuget/MyGet.ps1" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/nuget/bootstrap.nuspec" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/nuget/bootstrap.sass.nuspec" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/package-lock.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/package.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/robots.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/sache.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_alert.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_badge.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_breadcrumb.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_button-group.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_buttons.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_card.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_carousel.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_close.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_code.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_custom-forms.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_dropdown.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_forms.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_functions.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_grid.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_images.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_input-group.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_jumbotron.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_list-group.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_media.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_mixins.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_modal.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_nav.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_navbar.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_pagination.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_popover.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_print.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_progress.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_reboot.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_root.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_tables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_tooltip.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_transitions.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_type.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_utilities.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/_variables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/bootstrap-grid.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/bootstrap-reboot.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/bootstrap.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_alert.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_background-variant.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_badge.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_border-radius.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_box-shadow.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_breakpoints.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_buttons.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_caret.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_clearfix.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_float.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_forms.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_gradients.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_grid-framework.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_grid.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_hover.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_image.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_list-group.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_lists.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_nav-divider.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_navbar-align.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_pagination.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_reset-text.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_resize.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_screen-reader.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_size.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_table-row.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_text-emphasis.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_text-hide.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_text-truncate.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_transition.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/mixins/_visibility.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/utilities/_align.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/utilities/_background.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/utilities/_borders.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/utilities/_clearfix.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/utilities/_display.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/utilities/_embed.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/utilities/_flex.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/utilities/_float.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/utilities/_position.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/utilities/_screenreaders.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/utilities/_sizing.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/utilities/_spacing.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/utilities/_text.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/scss/utilities/_visibility.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/bootstrap/sw.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/js/angular/app.js" afterPath="$PROJECT_DIR$/js/angular/app.js" />
+      <change beforePath="$PROJECT_DIR$/js/angular/controllers/mainController.js" afterPath="$PROJECT_DIR$/js/angular/controllers/mainController.js" />
+      <change beforePath="$PROJECT_DIR$/js/angular/services/expenseService.js" afterPath="$PROJECT_DIR$/js/angular/services/expenseService.js" />
+      <change beforePath="$PROJECT_DIR$/modals/expense-modal.html" afterPath="$PROJECT_DIR$/modals/expense-modal.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -418,54 +28,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="176">
+              <caret line="100" column="104" lean-forward="false" selection-start-line="100" selection-start-column="104" selection-end-line="100" selection-end-column="104" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="484">
-                <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="69" column="1" lean-forward="false" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainController.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mainController.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/angular/controllers/mainController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="1429">
+              <caret line="91" column="81" lean-forward="false" selection-start-line="91" selection-start-column="81" selection-end-line="91" selection-end-column="81" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dateService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/angular/services/dateService.js">
+      <file leaf-file-name="expense-modal.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modals/expense-modal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="95" lean-forward="false" selection-start-line="3" selection-start-column="95" selection-end-line="3" selection-end-column="95" />
+            <state relative-caret-position="550">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -474,19 +61,11 @@
       <file leaf-file-name="expenseService.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/angular/services/expenseService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/angular/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="76" lean-forward="false" selection-start-line="0" selection-start-column="76" selection-end-line="0" selection-end-column="76" />
-              <folding />
+            <state relative-caret-position="66">
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <folding>
+                <element signature="e#121#262#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -501,14 +80,14 @@
       <list>
         <option value="$PROJECT_DIR$/.bowerrc" />
         <option value="$PROJECT_DIR$/js/angular/modals/expense-modal.html" />
-        <option value="$PROJECT_DIR$/modals/expense-modal.html" />
-        <option value="$PROJECT_DIR$/js/angular/app.js" />
-        <option value="$PROJECT_DIR$/js/angular/services/expenseService.js" />
         <option value="$PROJECT_DIR$/js/angular/services/dateService.js" />
-        <option value="$PROJECT_DIR$/js/angular/controllers/mainController.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/js/angular/app.js" />
+        <option value="$PROJECT_DIR$/modals/expense-modal.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/angular/services/expenseService.js" />
+        <option value="$PROJECT_DIR$/js/angular/controllers/mainController.js" />
       </list>
     </option>
   </component>
@@ -563,24 +142,12 @@
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="gfx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="modals" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -632,24 +199,25 @@
       <option name="presentableId" value="Default" />
       <updated>1520720823418</updated>
       <workItem from="1520720825130" duration="3761000" />
-      <workItem from="1520724725863" duration="9112000" />
+      <workItem from="1520724725863" duration="12123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12873000" />
+    <option name="totallyTimeSpent" value="15884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23072916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28987068" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28987068" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -710,72 +278,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modals/expense-modal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="34" column="73" lean-forward="false" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/angular/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="76" lean-forward="false" selection-start-line="0" selection-start-column="76" selection-end-line="0" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/angular/services/expenseService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/angular/services/dateService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="95" lean-forward="false" selection-start-line="3" selection-start-column="95" selection-end-line="3" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gfx/magnifier.svg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/angular/controllers/mainController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="549">
           <caret line="69" column="1" lean-forward="false" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="484">
-            <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -802,10 +313,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/fontawesome/.github/PULL_REQUEST_TEMPLATE.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/angular/services/dateService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="95" lean-forward="false" selection-start-line="3" selection-start-column="95" selection-end-line="3" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/angular/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="440">
+            <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/expense-modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="176">
+          <caret line="100" column="104" lean-forward="false" selection-start-line="100" selection-start-column="104" selection-end-line="100" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/angular/services/expenseService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="e#121#262#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/angular/controllers/mainController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1429">
+          <caret line="91" column="81" lean-forward="false" selection-start-line="91" selection-start-column="81" selection-end-line="91" selection-end-column="81" />
           <folding />
         </state>
       </provider>
