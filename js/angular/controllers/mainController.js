@@ -7,29 +7,7 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
 
     $scope.keyword = "";
 
-    $scope.months = [
-    {id: 0, name: 'January', weeks: dateService.getWeeksInMonth(0,2018)},
-    {id: 1, name: 'February',weeks: dateService.getWeeksInMonth(1,2018)},
-    {id: 2, name: 'March', weeks: dateService.getWeeksInMonth(2,2018)},
-    {id: 3, name: 'April', weeks: dateService.getWeeksInMonth(3,2018)},
-    {id: 4, name: 'May', weeks: dateService.getWeeksInMonth(4,2018)},
-    {id: 5, name: 'June', weeks: dateService.getWeeksInMonth(5,2018)},
-    {id: 6, name: 'July', weeks: dateService.getWeeksInMonth(6,2018)},
-    {id: 7, name: 'August', weeks: dateService.getWeeksInMonth(7,2018)},
-    {id: 8, name: 'September', weeks: dateService.getWeeksInMonth(8,2018)},
-    {id: 9, name: 'October', weeks: dateService.getWeeksInMonth(9,2018)},
-    {id: 10, name: 'November', weeks: dateService.getWeeksInMonth(10,2018)},
-    {id: 11, name: 'December', weeks: dateService.getWeeksInMonth(11,2018)},
-    ];
 
-
-    $scope.today = new Date();
-    $scope.filter = {
-        month: $scope.today.getMonth(),
-        week: $scope.months[$scope.today.getMonth()].weeks[0].id
-    };
-
-    console.log($scope.months);
 
 
     /* ------------------------------------------------------------|
@@ -59,6 +37,41 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
 
     //check if all of them have categories. If not, reset localstorage to avoid future bugs.
     expenseService.categoryFix();
+
+
+    /* ------------------------------------------------------------|
+    | FILTER VARIABLES
+    *-------------------------------------------------------------*/
+
+    $scope.months = [
+        {id: 0, name: 'January', weeks: dateService.getWeeksInMonth(0,2018)},
+        {id: 1, name: 'February',weeks: dateService.getWeeksInMonth(1,2018)},
+        {id: 2, name: 'March', weeks: dateService.getWeeksInMonth(2,2018)},
+        {id: 3, name: 'April', weeks: dateService.getWeeksInMonth(3,2018)},
+        {id: 4, name: 'May', weeks: dateService.getWeeksInMonth(4,2018)},
+        {id: 5, name: 'June', weeks: dateService.getWeeksInMonth(5,2018)},
+        {id: 6, name: 'July', weeks: dateService.getWeeksInMonth(6,2018)},
+        {id: 7, name: 'August', weeks: dateService.getWeeksInMonth(7,2018)},
+        {id: 8, name: 'September', weeks: dateService.getWeeksInMonth(8,2018)},
+        {id: 9, name: 'October', weeks: dateService.getWeeksInMonth(9,2018)},
+        {id: 10, name: 'November', weeks: dateService.getWeeksInMonth(10,2018)},
+        {id: 11, name: 'December', weeks: dateService.getWeeksInMonth(11,2018)},
+    ];
+
+
+    $scope.today = new Date();
+
+    //start the filter variables based on the last expense record
+    $scope.filter = {
+        month: $rootScope.expenses.data[$rootScope.expenses.data.length-1].date.getMonth(),
+        week: $rootScope.expenses.data[$rootScope.expenses.data.length-1].week,
+        // month:
+    };
+
+    console.log();
+    console.log($scope.months);
+
+
 
     /* ------------------------------------------------------------|
     | SETTING UP CHART DATA

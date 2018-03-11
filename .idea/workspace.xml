@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a07077e5-0ee1-4078-8892-2fa725ce7c42" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build/jquery/dist/core.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/jquery/dist/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/jquery/dist/jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/jquery/dist/jquery.min.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/jquery/dist/jquery.slim.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/jquery/dist/jquery.slim.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/jquery/dist/jquery.slim.min.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/js/angular/controllers/mainController.js" afterPath="$PROJECT_DIR$/js/angular/controllers/mainController.js" />
       <change beforePath="$PROJECT_DIR$/js/angular/services/dateService.js" afterPath="$PROJECT_DIR$/js/angular/services/dateService.js" />
@@ -36,11 +28,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.74114585">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="67">
-                  <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+                <state relative-caret-position="375">
+                  <caret line="139" column="24" lean-forward="false" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -49,18 +41,18 @@
           <file leaf-file-name="mainController.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/angular/controllers/mainController.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="267">
-                  <caret line="51" column="46" lean-forward="false" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+                <state relative-caret-position="642">
+                  <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="dateService.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="dateService.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/angular/services/dateService.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+                <state relative-caret-position="466">
+                  <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -106,8 +98,8 @@
         <option value="$PROJECT_DIR$/js/angular/services/expenseService.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/js/angular/controllers/mainController.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/angular/services/dateService.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -232,12 +224,12 @@
       <option name="presentableId" value="Default" />
       <updated>1520720823418</updated>
       <workItem from="1520720825130" duration="3761000" />
-      <workItem from="1520724725863" duration="22545000" />
+      <workItem from="1520724725863" duration="23541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26306000" />
+    <option name="totallyTimeSpent" value="27302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -421,26 +413,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/angular/controllers/mainController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="51" column="46" lean-forward="false" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+        <state relative-caret-position="642">
+          <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/angular/services/dateService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        <state relative-caret-position="466">
+          <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="139" column="24" lean-forward="false" selection-start-line="139" selection-start-column="24" selection-end-line="139" selection-end-column="24" />
           <folding />
         </state>
       </provider>

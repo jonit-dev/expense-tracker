@@ -36,7 +36,17 @@ app.service('dateService', function ($rootScope) {
 
         let start = 1;
         let end = 7 - firstDate.getDay();
+
+        weeks.push({
+            id: weeks.length,
+            label:'All weeks',
+            start:1,
+            end: numDays
+        });
+
+
         while (start <= numDays) {
+
             weeks.push({
                 id: weeks.length,
                 start: start, end: end, label: (month+1)+'/'+start+'/'+year+' to '+(month+1)+'/'+end+'/'+year});

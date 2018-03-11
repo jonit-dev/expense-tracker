@@ -113,7 +113,8 @@
                     </select>
 
                     <select class="form-control  custom-select"
-                            ng-model="filter.week" ng-options="week.id as week.label for week in months[filter.month].weeks">
+                            ng-model="filter.week"
+                            ng-options="week.id as week.label for week in months[filter.month].weeks">
 
                     </select>
 
@@ -134,7 +135,9 @@
                     <tbody>
 
                     <tr ng-if="expenses.data.length > 0"
-                        ng-repeat="expense in expenses.data | filter:{description: keyword, month: filter.month, week: filter.week}">
+                        ng-repeat="expense in expenses.data | filter: (filter.week === 0 ? {description:keyword, month:filter.month} : {description:keyword, month:filter.month, week:filter.week})">
+
+
 
 
                         <!--<td>{{expense.date.getMonth() + 1 + '/' + expense.date.getDate() + '/' + expense.date.getFullYear() }}</td>-->
