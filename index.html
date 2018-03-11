@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en" ng-app="expenseTracker">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Expense Tracker</title>
+
+
+    <!--CSS-->
+    <link rel="stylesheet" href="build/bootstrap/dist/css/bootstrap.min.css">
+
+
+    <!--CUSTOM STYLES-->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+    <!--FONT-AWESOME-->
+    <link rel="stylesheet" href="build/fontawesome/svg-with-js/css/fa-svg-with-js.css">
+    <script src="build/fontawesome/svg-with-js/js/fontawesome-all.js"></script>
+
+
+
+
+    <!--SCRIPTS-->
+    <script src="build/jquery/dist/jquery.min.js"></script>
+    <script src="build/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="build/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!--ANGULAR-->
+    <script src="build/angular/angular.min.js"></script>
+    <script src="js/angular/app.js"></script>
+
+    <!--ANGULAR SERVICES-->
+    <script src="js/angular/services/expenseService.js"></script>
+
+    <!--ANGULAR CONTROLLERS-->
+    <script src="js/angular/controllers/mainController.js"></script>
+
+    <!--ANGULAR MODAL-->
+    <link rel="stylesheet" href="build/angular-fancy-modal/dist/angular-fancy-modal.min.css">
+    <link rel="stylesheet" href="build/angular-fancy-modal/dist/angular-fancy-modal-theme-classic.css">
+    <script src="build/angular-fancy-modal/dist/angular-fancy-modal.min.js"></script>
+
+
+
+</head>
+<body>
+
+
+<header>
+
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">ExpenseTracker <i class="fas fa-credit-card"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <!--<a class="nav-item nav-link" href="#">Features</a>-->
+                <!--<a class="nav-item nav-link" href="#">Pricing</a>-->
+                <!--<a class="nav-item nav-link disabled" href="#">Disabled</a>-->
+            </div>
+        </div>
+    </nav>
+    <!--ENDNAVBAR-->
+
+</header>
+
+
+<main>
+
+    <div class="container"  ng-controller="mainController">
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="jumbotron">
+                    <div class="total">
+                        CAD {{totalAmount}}
+                    </div>
+                </div>
+
+                <table class="table expenseTable">
+                    <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Amount</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+
+                    <tr ng-repeat="expense in expenses">
+                        <th scope="row">{{expense.id}}</th>
+                        <td>{{expense.date.getMonth() + '/' + expense.date.getDate() + '/' + expense.date.getFullYear() }}</td>
+                        <td>{{expense.description}}</td>
+                        <td>{{expense.amount}}</td>
+                    </tr>
+
+                    </tbody>
+                </table>
+
+
+                <button type="button" class="btn btn-danger" ng-click="openExpenseModal()">Add Expense</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <aside>
+        <!--some complementary information here.. optional-->
+    </aside>
+
+</main>
+
+
+<footer>
+
+</footer>
+
+
+</body>
+</html>

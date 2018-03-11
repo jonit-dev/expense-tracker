@@ -1,0 +1,17 @@
+body {
+font-family: 'Ubuntu', serif;
+}
+
+main {
+    margin-top:2rem;
+}
+
+.total {
+  text-align: center;
+    font-size:2rem;
+    font-weight: bolder;
+}
+
+.expenseTable {
+    font-size:.9rem;
+}
