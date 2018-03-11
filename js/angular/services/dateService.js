@@ -8,7 +8,7 @@ app.service('dateService', function ($rootScope) {
             expense.month = expense.date.getMonth();
             let weeks = this.getWeeksInMonth(expense.date.getMonth(),expense.date.getFullYear())
 
-            console.log(expense.date.getDate());
+            // console.log(expense.date.getDate());
 
             //set the corresponding week number, based on date
             for(let week of weeks) {

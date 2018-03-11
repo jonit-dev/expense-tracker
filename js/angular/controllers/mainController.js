@@ -8,11 +8,11 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
     $scope.keyword = "";
 
 
-
-
     /* ------------------------------------------------------------|
     | LOCALSTORAGE DATA
     *-------------------------------------------------------------*/
+
+    //localStorage is used to persist data through multiple app uses.
 
     //init localStorage
     $scope.$storage = $localStorage;
@@ -32,7 +32,7 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
         $rootScope.totalAmount = $scope.$storage.expenses.totalAmount;
     }
 
-    console.log($scope.$storage.expenses);
+    // console.log($scope.$storage.expenses);
 
 
     //check if all of them have categories. If not, reset localstorage to avoid future bugs.
@@ -68,8 +68,7 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
         // month:
     };
 
-    console.log();
-    console.log($scope.months);
+    // console.log($scope.months);
 
 
 
@@ -146,8 +145,6 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
         $rootScope.labels = expenseService.refreshChart().labels;
         $rootScope.data = expenseService.refreshChart().data;
 
-        // console.log($scope.labels);
-        // console.log($scope.data);
 
 
     }
