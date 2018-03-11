@@ -99,11 +99,11 @@
                     <tbody>
 
 
-                    <tr ng-repeat="expense in expenses">
+                    <tr ng-repeat="expense in expenses.data">
                         <th scope="row">{{expense.id}}</th>
                         <td>{{expense.date.getMonth() + '/' + expense.date.getDate() + '/' + expense.date.getFullYear() }}</td>
                         <td>{{expense.description}}</td>
-                        <td>{{expense.amount}}</td>
+                        <td>CAD {{expense.amount}}</td>
                     </tr>
 
                     </tbody>

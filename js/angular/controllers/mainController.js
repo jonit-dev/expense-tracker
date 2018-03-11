@@ -6,11 +6,15 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
     *-------------------------------------------------------------*/
 
     //set expenses data to rootScope, so we can easily manipulate it across other functions
-    $rootScope.expenses = [
-        {id: 0, date: new Date(2018, 1, 16), description: "This is an expense", amount: 100.00}
-    ];
 
-    $rootScope.totalAmount = expenseService.calculateTotalAmount($rootScope.expenses);
+    $rootScope.expenses = {
+      data: [
+          {id: 0, date: new Date(2018, 1, 16), description: "This is an expense", amount: 100.00}
+      ],
+      totalAmount: 0
+    };
+
+    $rootScope.totalAmount = expenseService.calculateTotalAmount($rootScope.expenses.data);
 
     /* ------------------------------------------------------------|
     | FUNCTIONS
@@ -37,9 +41,16 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
 
     $scope.addExpense = function (expense) {
 
+
+
         expenseService.addExpense(expense);
 
+
+
         $fancyModal.close();//close all modals
+
+
+
 
     }
 
