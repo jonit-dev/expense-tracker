@@ -29,6 +29,9 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
         $rootScope.totalAmount = $scope.$storage.expenses.totalAmount;
     }
 
+    //check if all of them have categories. If not, reset localstorage to avoid future bugs.
+    expenseService.categoryFix();
+
     /* ------------------------------------------------------------|
     | SETTING UP CHART DATA
     *-------------------------------------------------------------*/

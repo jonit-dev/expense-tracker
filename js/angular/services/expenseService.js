@@ -1,4 +1,4 @@
-app.service('expenseService', function ($rootScope) {
+app.service('expenseService', function ($rootScope, $localStorage) {
     this.calculateTotalAmount = function (expenses) {
         let total = 0;
         expenses.forEach((expense) => {
@@ -17,6 +17,20 @@ app.service('expenseService', function ($rootScope) {
         });
         //update total amount
         $rootScope.expenses.totalAmount = this.calculateTotalAmount($rootScope.expenses.data);
+
+    };
+
+    this.categoryFix = function() {
+
+        for(let expense of $rootScope.expenses.data) {
+            if(typeof expense.category === 'undefined') {
+                $localStorage.$reset();
+                $rootScope.expenses.data = [];
+                $rootScope.expenses.totalAmount = 0;
+            }
+
+        }
+
 
     };
 
