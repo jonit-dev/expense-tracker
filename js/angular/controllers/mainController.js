@@ -61,12 +61,23 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
 
     $scope.today = new Date();
 
-    //start the filter variables based on the last expense record
-    $rootScope.filter = {
-        month: $rootScope.expenses.data[$rootScope.expenses.data.length-1].date.getMonth(),
-        week: $rootScope.expenses.data[$rootScope.expenses.data.length-1].week,
-        // month:
-    };
+    if($rootScope.expenses.data.length > 0) {
+        //start the filter variables based on the last expense record
+        $rootScope.filter = {
+            month: $rootScope.expenses.data[$rootScope.expenses.data.length-1].date.getMonth(),
+            week: $rootScope.expenses.data[$rootScope.expenses.data.length-1].week,
+            // month:
+        };
+    } else {
+        $scope.today = new Date();
+        //start default filter variables
+        $rootScope.filter = {
+            month: $scope.today.getMonth(),
+            week: 0,
+            // month:
+        };
+    }
+
 
     // console.log($scope.months);
 
