@@ -30,21 +30,23 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
         $rootScope.totalAmount = $scope.$storage.expenses.totalAmount;
     }
 
-
     /* ------------------------------------------------------------|
     | SETTING UP CHART DATA
     *-------------------------------------------------------------*/
 
-    $rootScope.categories = [
+    $scope.categories = [
         {id: 0, name: 'Food'},
         {id: 1, name: 'Credit Card'},
         {id: 2, name: 'Eletronics'},
     ];
 
-    //loop trough all expenses and setup chart data
+    $scope.selectedCategory  = $scope.categories[0].id; //set initial value
 
-    $scope.labels = expenseService.refreshChart().labels;
-    $scope.data = expenseService.refreshChart().data;
+
+
+        $scope.labels = expenseService.refreshChart().labels;
+        $scope.data = expenseService.refreshChart().data;
+
 
 
 
@@ -64,13 +66,6 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
         };
 
 
-
-       $rootScope.expenses.category = $rootScope.categories[0];
-
-
-        console.log($scope.expense.exCategory);
-
-
         $scope.modal = $fancyModal.open({
             templateUrl: 'modals/expense-modal.html',
             controller: 'mainController'
@@ -81,7 +76,15 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
 
     $scope.addExpense = function (expense) {
 
-        expense.exCategory = $rootScope.expenses.category;//save expense category
+        let label = $scope.categories.find((category) => {
+            if(category.id === $scope.selectedCategory) {
+                return category;
+            }
+        });
+        console.log(label);
+
+
+        expense.exCategory = label.name;
 
         expenseService.addExpense(expense);
 
@@ -90,9 +93,11 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
 
         $fancyModal.close();//close all modals
 
-        //refresh chart data
-        $scope.labels = expenseService.refreshChart().labels;
-        $scope.data = expenseService.refreshChart().data;
+
+
+            $scope.labels = expenseService.refreshChart().labels;
+            $scope.data = expenseService.refreshChart().data;
+
 
 
 

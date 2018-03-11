@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a07077e5-0ee1-4078-8892-2fa725ce7c42" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/angular/app.js" afterPath="$PROJECT_DIR$/js/angular/app.js" />
       <change beforePath="$PROJECT_DIR$/js/angular/controllers/mainController.js" afterPath="$PROJECT_DIR$/js/angular/controllers/mainController.js" />
+      <change beforePath="$PROJECT_DIR$/js/angular/services/dateService.js" afterPath="$PROJECT_DIR$/js/angular/services/dateService.js" />
       <change beforePath="$PROJECT_DIR$/js/angular/services/expenseService.js" afterPath="$PROJECT_DIR$/js/angular/services/expenseService.js" />
       <change beforePath="$PROJECT_DIR$/modals/expense-modal.html" afterPath="$PROJECT_DIR$/modals/expense-modal.html" />
     </list>
@@ -31,18 +32,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="100" column="104" lean-forward="false" selection-start-line="100" selection-start-column="104" selection-end-line="100" selection-end-column="104" />
+            <state relative-caret-position="550">
+              <caret line="101" column="87" lean-forward="false" selection-start-line="101" selection-start-column="87" selection-end-line="101" selection-end-column="87" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainController.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mainController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/angular/controllers/mainController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1429">
-              <caret line="91" column="81" lean-forward="false" selection-start-line="91" selection-start-column="81" selection-end-line="91" selection-end-column="81" />
+            <state relative-caret-position="198">
+              <caret line="46" column="53" lean-forward="false" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -51,26 +62,44 @@
       <file leaf-file-name="expense-modal.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modals/expense-modal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="434">
+              <caret line="28" column="131" lean-forward="false" selection-start-line="28" selection-start-column="131" selection-end-line="28" selection-end-column="131" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="expenseService.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="expenseService.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/angular/services/expenseService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="686">
+              <caret line="58" column="8" lean-forward="false" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
               <folding>
-                <element signature="e#121#262#0" expanded="false" />
+                <element signature="e#106#247#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="dateService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/angular/services/dateService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>refreshChart()</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>refreshChart($scope.categories)</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,14 +109,14 @@
       <list>
         <option value="$PROJECT_DIR$/.bowerrc" />
         <option value="$PROJECT_DIR$/js/angular/modals/expense-modal.html" />
-        <option value="$PROJECT_DIR$/js/angular/services/dateService.js" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/js/angular/app.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/modals/expense-modal.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/angular/services/expenseService.js" />
         <option value="$PROJECT_DIR$/js/angular/controllers/mainController.js" />
+        <option value="$PROJECT_DIR$/js/angular/services/dateService.js" />
+        <option value="$PROJECT_DIR$/js/angular/services/expenseService.js" />
       </list>
     </option>
   </component>
@@ -142,7 +171,30 @@
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="gfx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="angular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="angular" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
@@ -199,18 +251,18 @@
       <option name="presentableId" value="Default" />
       <updated>1520720823418</updated>
       <workItem from="1520720825130" duration="3761000" />
-      <workItem from="1520724725863" duration="12123000" />
+      <workItem from="1520724725863" duration="14558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15884000" />
+    <option name="totallyTimeSpent" value="18319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -283,14 +335,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="69" column="1" lean-forward="false" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/bootstrap/docs/4.0/components/input-group.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -324,14 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/angular/services/dateService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="95" lean-forward="false" selection-start-line="3" selection-start-column="95" selection-end-line="3" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/angular/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -357,37 +393,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modals/expense-modal.html">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="423">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="100" column="104" lean-forward="false" selection-start-line="100" selection-start-column="104" selection-end-line="100" selection-end-column="104" />
+        <state relative-caret-position="550">
+          <caret line="101" column="87" lean-forward="false" selection-start-line="101" selection-start-column="87" selection-end-line="101" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/angular/controllers/mainController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="46" column="53" lean-forward="false" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modals/expense-modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="28" column="131" lean-forward="false" selection-start-line="28" selection-start-column="131" selection-end-line="28" selection-end-column="131" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/angular/services/dateService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/angular/services/expenseService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="686">
+          <caret line="58" column="8" lean-forward="false" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
           <folding>
-            <element signature="e#121#262#0" expanded="false" />
+            <element signature="e#106#247#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/angular/controllers/mainController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1429">
-          <caret line="91" column="81" lean-forward="false" selection-start-line="91" selection-start-column="81" selection-end-line="91" selection-end-column="81" />
-          <folding />
         </state>
       </provider>
     </entry>

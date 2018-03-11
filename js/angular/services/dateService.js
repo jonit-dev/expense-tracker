@@ -8,7 +8,7 @@ app.service('dateService', function ($rootScope) {
         for(let expense of expenses.data) {
                 expense.date = new Date(expense.date);
         }
-        console.log(expenses);
+
 
         $rootScope.expenses = expenses;
 
