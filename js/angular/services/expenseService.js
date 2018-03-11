@@ -7,10 +7,11 @@ app.service('expenseService', function ($rootScope, $localStorage, dateService, 
         return total;
     };
 
-    this.addExpense = function (expense, categories) {
+    this.addExpense = function (expense, categories, selectedCategory) {
 
 
         console.log('adding expense');
+        console.log(expense);
 
 
         /* Validation =========================================== */
@@ -37,11 +38,11 @@ app.service('expenseService', function ($rootScope, $localStorage, dateService, 
 
 
         let label = categories.find((category) => {
-            if (category.id === $rootScope.selectedCategory) {
+            if (category.id === selectedCategory) {
                 return category;
             }
         });
-        // console.log(label);
+        console.log(label);
 
         //set new expense category
         expense.exCategory = label.name;

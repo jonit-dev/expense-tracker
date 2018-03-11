@@ -132,10 +132,12 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
     };
 
 
-    $scope.addExpense = function (expense) {
+    $scope.addExpense = function (expense, selectedCategory) {
+
+        console.log(selectedCategory);
 
 
-        expenseService.addExpense(expense, $scope.categories);
+        expenseService.addExpense(expense, $scope.categories, selectedCategory);
 
         //save expenses data on local storage
         $scope.$storage.expenses = $rootScope.expenses;
