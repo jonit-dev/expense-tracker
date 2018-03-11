@@ -1,4 +1,4 @@
-app.controller("mainController", function ($scope, $fancyModal, $rootScope, expenseService, $localStorage,dateService) {
+app.controller("mainController", function ($scope, $fancyModal, $rootScope, expenseService, $localStorage, dateService, $timeout) {
 
     /* ------------------------------------------------------------|
     | DEFAULT VARIABLES
@@ -17,14 +17,13 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
 
     //set expenses data to rootScope, so we can easily manipulate it across other functions
     $rootScope.expenses = {
-      data: [
-      ],
-      totalAmount: 0
+        data: [],
+        totalAmount: 0
     };
 
     /* LOCAL STORAGE =========================================== */
     //if theres some previous information, lets update our expenses
-    if($scope.$storage.expenses) {
+    if ($scope.$storage.expenses) {
         $rootScope.expenses = $scope.$storage.expenses;
         $rootScope.expenses = dateService.fixDates($rootScope.expenses);
         $rootScope.totalAmount = $scope.$storage.expenses.totalAmount;
@@ -40,14 +39,11 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
         {id: 2, name: 'Eletronics'},
     ];
 
-    $scope.selectedCategory  = $scope.categories[0].id; //set initial value
+    $scope.selectedCategory = $scope.categories[0].id; //set initial value
 
 
-
-        $scope.labels = expenseService.refreshChart().labels;
-        $scope.data = expenseService.refreshChart().data;
-
-
+    $rootScope.labels = expenseService.refreshChart().labels;
+    $rootScope.data = expenseService.refreshChart().data;
 
 
     /* ------------------------------------------------------------|
@@ -77,7 +73,7 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
     $scope.addExpense = function (expense) {
 
         let label = $scope.categories.find((category) => {
-            if(category.id === $scope.selectedCategory) {
+            if (category.id === $scope.selectedCategory) {
                 return category;
             }
         });
@@ -93,15 +89,11 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
 
         $fancyModal.close();//close all modals
 
+        $rootScope.labels = expenseService.refreshChart().labels;
+        $rootScope.data = expenseService.refreshChart().data;
 
-
-            $scope.labels = expenseService.refreshChart().labels;
-            $scope.data = expenseService.refreshChart().data;
-
-            console.log($scope.labels);
-            console.log($scope.data);
-
-
+        console.log($scope.labels);
+        console.log($scope.data);
 
 
     }

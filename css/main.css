@@ -8,8 +8,9 @@ main {
 
 .total {
   text-align: center;
-    font-size:2rem;
+    font-size:1rem;
     font-weight: bolder;
+    padding-top:1rem;
 }
 
 /* ------------------------------------------------------------|

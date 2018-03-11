@@ -99,12 +99,12 @@
                 <div class="jumbotron">
 
                     <canvas id="doughnut" class="chart chart-doughnut" ng-if="expenses.data.length !== 0"
-                            chart-data="data" chart-labels="labels" data-override="true">
+                            chart-data="data" chart-labels="labels">
                     </canvas>
 
 
                     <div class="total">
-                        CAD {{expenses.totalAmount}}
+                        Total Expenses: CAD {{expenses.totalAmount}}
                     </div>
                 </div>
 

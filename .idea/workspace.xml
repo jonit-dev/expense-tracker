@@ -3,286 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a07077e5-0ee1-4078-8892-2fa725ce7c42" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/.bower.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/.editorconfig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/.eslintignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/.eslintrc.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/.htmllintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/LICENSE.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/MAINTAINING.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/book.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/bower.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/composer.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/SUMMARY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/axes/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/axes/cartesian/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/axes/cartesian/category.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/axes/cartesian/linear.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/axes/cartesian/logarithmic.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/axes/cartesian/time.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/axes/labelling.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/axes/radial/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/axes/radial/linear.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/axes/styling.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/charts/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/charts/area.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/charts/bar.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/charts/bubble.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/charts/doughnut.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/charts/line.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/charts/mixed.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/charts/polar.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/charts/radar.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/charts/scatter.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/configuration/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/configuration/animations.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/configuration/elements.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/configuration/layout.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/configuration/legend.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/configuration/title.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/configuration/tooltip.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/developers/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/developers/api.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/developers/axes.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/developers/charts.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/developers/contributing.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/developers/plugins.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/developers/updates.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/general/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/general/colors.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/general/device-pixel-ratio.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/general/fonts.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/general/interactions/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/general/interactions/events.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/general/interactions/modes.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/general/options.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/general/responsive.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/getting-started/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/getting-started/installation.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/getting-started/integration.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/getting-started/usage.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/notes/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/notes/comparison.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/notes/extensions.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/notes/license.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/docs/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/gulpfile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/karma.conf.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/.eslintrc.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/advanced/data-labelling.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/advanced/progress-bar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/area/analyser.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/area/line-boundaries.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/area/line-datasets.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/area/line-stacked.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/area/radar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/bar/horizontal.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/bar/multi-axis.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/bar/stacked-group.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/bar/stacked.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/bar/vertical.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/bubble.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/combo-bar-line.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/doughnut.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/line/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/line/interpolation-modes.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/line/line-styles.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/line/multi-axis.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/line/point-sizes.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/line/point-styles.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/line/skip-points.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/line/stepped.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/pie.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/polar-area.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/radar-skip-points.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/radar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/scatter/basic.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/charts/scatter/multi-axis.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/legend/point-style.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/legend/positioning.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/logo.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/samples.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/scales/filtering-labels.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/scales/gridlines-display.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/scales/gridlines-style.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/scales/linear/min-max-suggested.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/scales/linear/min-max.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/scales/linear/step-size.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/scales/logarithmic/line.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/scales/logarithmic/scatter.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/scales/multiline-labels.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/scales/non-numeric-y.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/scales/time/combo.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/scales/time/financial.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/scales/time/line-point-data.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/scales/time/line.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/scales/toggle-scale-type.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/scriptable/bubble.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/tooltips/border.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/tooltips/callbacks.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/tooltips/custom-line.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/tooltips/custom-pie.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/tooltips/custom-points.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/tooltips/interactions.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/tooltips/positioning.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/samples/utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/chart.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/charts/Chart.Bar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/charts/Chart.Bubble.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/charts/Chart.Doughnut.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/charts/Chart.Line.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/charts/Chart.PolarArea.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/charts/Chart.Radar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/charts/Chart.Scatter.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/controllers/controller.bar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/controllers/controller.bubble.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/controllers/controller.doughnut.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/controllers/controller.line.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/controllers/controller.polarArea.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/controllers/controller.radar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/controllers/controller.scatter.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/core/core.animation.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/core/core.controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/core/core.datasetController.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/core/core.defaults.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/core/core.element.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/core/core.helpers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/core/core.interaction.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/core/core.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/core/core.layouts.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/core/core.plugins.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/core/core.scale.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/core/core.scaleService.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/core/core.ticks.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/core/core.tooltip.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/elements/element.arc.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/elements/element.line.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/elements/element.point.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/elements/element.rectangle.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/elements/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/helpers/helpers.canvas.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/helpers/helpers.core.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/helpers/helpers.easing.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/helpers/helpers.options.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/helpers/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/platforms/platform.basic.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/platforms/platform.dom.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/platforms/platform.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/plugins/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/plugins/plugin.filler.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/plugins/plugin.legend.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/plugins/plugin.title.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/scales/scale.category.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/scales/scale.linear.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/scales/scale.linearbase.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/scales/scale.logarithmic.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/scales/scale.radialLinear.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/src/scales/scale.time.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/.eslintrc.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-absolute.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-absolute.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-flex-offset.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-flex-offset.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-flex.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-flex.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-max.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-max.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-min-interval.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-min-interval.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-multiple.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-multiple.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-no-overlap.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-no-overlap.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-offset.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-offset.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-single-xy.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-single-xy.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-single.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-single.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-stacked.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/controller.bar/bar-thickness-stacked.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/core.scale/label-offset-vertical-axes.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/core.scale/label-offset-vertical-axes.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-boundary-end-span.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-boundary-end-span.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-boundary-end.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-boundary-end.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-boundary-origin-span.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-boundary-origin-span.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-boundary-origin-spline-span.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-boundary-origin-spline-span.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-boundary-origin-spline.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-boundary-origin-spline.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-boundary-origin-stepped-span.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-boundary-origin-stepped-span.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-boundary-origin-stepped.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-boundary-origin-stepped.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-boundary-origin.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-boundary-origin.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-boundary-start-span.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-boundary-start-span.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-boundary-start.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-boundary-start.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-dataset-span.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-dataset-span.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-dataset-spline-span.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-dataset-spline-span.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-dataset-spline.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-dataset-spline.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-dataset.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-line-dataset.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-radar-boundary-origin-spline.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-radar-boundary-origin-spline.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-radar-boundary-origin.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/fixtures/plugin.filler/fill-radar-boundary-origin.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/jasmine.context.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/jasmine.index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/jasmine.matchers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/jasmine.utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/controller.bar.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/controller.bubble.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/controller.doughnut.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/controller.line.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/controller.polarArea.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/controller.radar.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/controller.scatter.test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/core.controller.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/core.datasetController.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/core.element.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/core.helpers.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/core.interaction.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/core.layouts.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/core.plugin.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/core.scale.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/core.scaleService.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/core.ticks.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/core.tooltip.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/element.arc.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/element.line.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/element.point.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/element.rectangle.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/global.defaults.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/global.deprecations.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/helpers.canvas.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/helpers.core.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/helpers.easing.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/helpers.options.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/platform.dom.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/plugin.filler.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/plugin.legend.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/plugin.title.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/scale.category.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/scale.linear.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/scale.logarithmic.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/scale.radialLinear.tests.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/chart.js/test/specs/scale.time.tests.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/js/angular/controllers/mainController.js" afterPath="$PROJECT_DIR$/js/angular/controllers/mainController.js" />
+      <change beforePath="$PROJECT_DIR$/modals/expense-modal.html" afterPath="$PROJECT_DIR$/modals/expense-modal.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -306,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="101" column="87" lean-forward="false" selection-start-line="101" selection-start-column="87" selection-end-line="101" selection-end-column="87" />
+            <state relative-caret-position="406">
+              <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -316,19 +40,11 @@
       <file leaf-file-name="mainController.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/angular/controllers/mainController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="101" column="37" lean-forward="false" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="1244">
+              <caret line="92" column="18" lean-forward="false" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+              <folding>
+                <element signature="e#1959#2360#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -336,8 +52,8 @@
       <file leaf-file-name="expense-modal.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modals/expense-modal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="28" column="131" lean-forward="false" selection-start-line="28" selection-start-column="131" selection-end-line="28" selection-end-column="131" />
+            <state relative-caret-position="682">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -346,11 +62,10 @@
       <file leaf-file-name="expenseService.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/angular/services/expenseService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="483">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
                 <element signature="e#106#247#0" expanded="false" />
-                <element signature="e#726#1849#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -386,11 +101,11 @@
         <option value="$PROJECT_DIR$/js/angular/modals/expense-modal.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/js/angular/app.js" />
-        <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/modals/expense-modal.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/angular/services/dateService.js" />
         <option value="$PROJECT_DIR$/js/angular/services/expenseService.js" />
+        <option value="$PROJECT_DIR$/modals/expense-modal.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/angular/controllers/mainController.js" />
       </list>
     </option>
@@ -510,17 +225,18 @@
       <option name="presentableId" value="Default" />
       <updated>1520720823418</updated>
       <workItem from="1520720825130" duration="3761000" />
-      <workItem from="1520724725863" duration="14791000" />
+      <workItem from="1520724725863" duration="15968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18552000" />
+    <option name="totallyTimeSpent" value="19729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -528,7 +244,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28987068" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28987068" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -546,7 +262,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -651,27 +369,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="101" column="87" lean-forward="false" selection-start-line="101" selection-start-column="87" selection-end-line="101" selection-end-column="87" />
+        <state relative-caret-position="406">
+          <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modals/expense-modal.html">
+    <entry file="file://$PROJECT_DIR$/js/angular/services/expenseService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="28" column="131" lean-forward="false" selection-start-line="28" selection-start-column="131" selection-end-line="28" selection-end-column="131" />
-          <folding />
+        <state relative-caret-position="483">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="e#106#247#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -683,22 +395,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/angular/services/expenseService.js">
+    <entry file="file://$PROJECT_DIR$/modals/expense-modal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#106#247#0" expanded="false" />
-            <element signature="e#726#1849#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="682">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/angular/controllers/mainController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="101" column="37" lean-forward="false" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="1244">
+          <caret line="92" column="18" lean-forward="false" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+          <folding>
+            <element signature="e#1959#2360#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
