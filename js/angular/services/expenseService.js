@@ -1,4 +1,4 @@
-app.service('expenseService', function ($rootScope) {
+app.service('expenseService', function ($rootScope, $localStorage) {
     this.calculateTotalAmount = function (expenses) {
         let total = 0;
         expenses.forEach((expense) => {
@@ -8,7 +8,6 @@ app.service('expenseService', function ($rootScope) {
     };
 
     this.addExpense = function (expense) {
-
         $rootScope.expenses.data.push({
             id: $rootScope.expenses.data.length,
             date: expense.exDate,
@@ -17,7 +16,6 @@ app.service('expenseService', function ($rootScope) {
         });
         //update total amount
         $rootScope.expenses.totalAmount = this.calculateTotalAmount($rootScope.expenses.data);
-
 
     }
 });

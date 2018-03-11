@@ -1,20 +1,42 @@
-app.controller("mainController", function ($scope, $fancyModal, $rootScope, expenseService) {
+app.controller("mainController", function ($scope, $fancyModal, $rootScope, expenseService, $localStorage,dateService) {
+
+    /* ------------------------------------------------------------|
+    | DEFAULT VARIABLES
+    *-------------------------------------------------------------*/
+    //just initialize some variables like keyword, so we can filter the data by description
+
+    $scope.keyword = "";
+
 
 
     /* ------------------------------------------------------------|
-    | FAKE DATA
+    | LOCALSTORAGE DATA
     *-------------------------------------------------------------*/
 
-    //set expenses data to rootScope, so we can easily manipulate it across other functions
+    //init localStorage
+    $scope.$storage = $localStorage;
 
+    //set expenses data to rootScope, so we can easily manipulate it across other functions
     $rootScope.expenses = {
       data: [
-          {id: 0, date: new Date(2018, 1, 16), description: "This is an expense", amount: 100.00}
+
       ],
       totalAmount: 0
     };
 
-    $rootScope.totalAmount = expenseService.calculateTotalAmount($rootScope.expenses.data);
+    // //calculate total amount
+    // $rootScope.totalAmount = expenseService.calculateTotalAmount($rootScope.expenses.data);
+
+
+    /* LOCAL STORAGE =========================================== */
+    //if theres some previous information, lets update our expenses
+    if($scope.$storage.expenses) {
+        $rootScope.expenses = $scope.$storage.expenses;
+        $rootScope.expenses = dateService.fixDates($rootScope.expenses);
+        $rootScope.totalAmount = $scope.$storage.expenses.totalAmount;
+    }
+
+
 
     /* ------------------------------------------------------------|
     | FUNCTIONS
@@ -45,6 +67,7 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
 
         expenseService.addExpense(expense);
 
+        $scope.$storage.expenses = $rootScope.expenses;
 
 
         $fancyModal.close();//close all modals

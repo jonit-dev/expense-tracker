@@ -1,4 +1,4 @@
-let app = angular.module("expenseTracker", ['vesparny.fancyModal']);
+let app = angular.module("expenseTracker", ['vesparny.fancyModal','ngStorage']);
 
 
 app.config(['$fancyModalProvider', function ($fancyModalProvider) {
