@@ -43,9 +43,9 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
         {id: 3, name: 'Education'},
         {id: 4, name: 'Rental'},
         {id: 5, name: 'Healthcare'},
-        {id: 5, name: 'Transport'},
-        {id: 6, name: 'Taxes'},
-        {id: 7, name: 'Communication'},
+        {id: 6, name: 'Transport'},
+        {id: 7, name: 'Taxes'},
+        {id: 8, name: 'Communication'},
 
     ];
 
