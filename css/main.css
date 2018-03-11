@@ -18,9 +18,9 @@ main {
 *-------------------------------------------------------------*/
 
 
-.expenseTable {
-    font-size:.7rem;
-}
+/*.expenseTable {*/
+    /*font-size:.6rem;*/
+/*}*/
 
 th,td {
     text-align: center;
@@ -33,6 +33,7 @@ th,td {
 }
 
 .expense-search-input {
+
     margin-bottom:1rem;
 }
 
@@ -56,7 +57,9 @@ th,td {
 /*DESKTOP ONLY CODE*/
 
 @media screen and (min-width: 700px) {
-
+    .expenseTable {
+        font-size:.9rem;
+    }
     .expense-search-icon {
         position: relative;
         top:-1.9rem;
@@ -65,7 +68,31 @@ th,td {
     }
 }
 
+/*MOBILE ONLY CODE*/
+@media screen and (max-width: 700px) {
+    .expenseTable {
+        font-size:.7rem;
+    }
+
+
+    .test {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .expenseTable {
+        font-size:.6rem;
+    }
+
+
+
+}
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
     display: none !important;
+}
+
+.custom-select{
+    margin-bottom:1.2rem;
 }

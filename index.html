@@ -23,8 +23,6 @@
     <script src="build/fontawesome/svg-with-js/js/fontawesome-all.js"></script>
 
 
-
-
     <!--BOOTSTRAP-->
     <script src="build/jquery/dist/jquery.min.js"></script>
     <script src="build/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -57,7 +55,6 @@
     <script src="build/angular-fancy-modal/dist/angular-fancy-modal.min.js"></script>
 
 
-
 </head>
 <body>
 
@@ -73,7 +70,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <!--<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>-->
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
                 <!--<a class="nav-item nav-link" href="#">Features</a>-->
                 <!--<a class="nav-item nav-link" href="#">Pricing</a>-->
                 <!--<a class="nav-item nav-link disabled" href="#">Disabled</a>-->
@@ -87,14 +84,10 @@
 
 <main>
 
-    <div class="container"  ng-controller="mainController" ng-cloak>
+    <div class="container" ng-controller="mainController" ng-cloak>
         <div class="row">
             <div class="col-md-12">
 
-                <form class="form-inline expense-search-input">
-                    <input class="form-control col-md-12" ng-model="keyword" type="search" placeholder="Search" aria-label="Search">
-                    <div class="expense-search-icon"></div>
-                </form>
 
                 <div class="jumbotron">
 
@@ -106,12 +99,32 @@
                     <div class="total">
                         Total Expenses: CAD {{expenses.totalAmount}}
                     </div>
+
+
                 </div>
+                <form class=" expense-search-input col-md-12">
+                    <input class="form-control col-md-12" ng-model="keyword" type="search" placeholder="Search"
+                           aria-label="Search">
+                    <div class="expense-search-icon"></div>
+
+                    <select class="form-control  custom-select"
+                            ng-model="filter.month" ng-options="month.id as month.name for month in months">
+
+                    </select>
+
+                    <select class="form-control  custom-select"
+                            ng-model="filter.week" ng-options="week.id as week.label for week in months[filter.month].weeks">
+
+                    </select>
+
+
+                </form>
+
 
                 <table class="table expenseTable">
                     <thead class="thead-dark">
                     <tr>
-                        <th scope="col">#</th>
+
                         <th scope="col">Date</th>
                         <th scope="col">Description</th>
                         <th scope="col">Amount</th>
@@ -120,11 +133,9 @@
                     </thead>
                     <tbody>
 
+                    <tr ng-if="expenses.data.length > 0"
+                        ng-repeat="expense in expenses.data | filter:{description: keyword, month: filter.month, week: filter.week}">
 
-
-
-                    <tr ng-if="expenses.data.length > 0" ng-repeat="expense in expenses.data | filter:keyword">
-                        <th scope="row">{{expense.id}}</th>
 
                         <!--<td>{{expense.date.getMonth() + 1 + '/' + expense.date.getDate() + '/' + expense.date.getFullYear() }}</td>-->
                         <td>{{expense.date | date:'MM/dd/yyyy'}}</td>
@@ -141,13 +152,11 @@
                 </p>
 
 
-                <button type="button" class="btn btn-danger btn-block" ng-click="openExpenseModal()">Add Expense</button>
+                <button type="button" class="btn btn-danger btn-block" ng-click="openExpenseModal()">Add Expense
+                </button>
             </div>
         </div>
     </div>
-
-
-
 
 
     <aside>
