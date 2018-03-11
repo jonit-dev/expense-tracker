@@ -36,7 +36,14 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
     $scope.categories = [
         {id: 0, name: 'Food'},
         {id: 1, name: 'Credit Card'},
-        {id: 2, name: 'Eletronics'},
+        {id: 2, name: 'Eletronics & Tech'},
+        {id: 3, name: 'Education'},
+        {id: 4, name: 'Rental'},
+        {id: 5, name: 'Healthcare'},
+        {id: 5, name: 'Transport'},
+        {id: 6, name: 'Taxes'},
+        {id: 7, name: 'Communication'},
+
     ];
 
     $scope.selectedCategory = $scope.categories[0].id; //set initial value
@@ -77,7 +84,7 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
                 return category;
             }
         });
-        console.log(label);
+        // console.log(label);
 
 
         expense.exCategory = label.name;
@@ -92,8 +99,8 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
         $rootScope.labels = expenseService.refreshChart().labels;
         $rootScope.data = expenseService.refreshChart().data;
 
-        console.log($scope.labels);
-        console.log($scope.data);
+        // console.log($scope.labels);
+        // console.log($scope.data);
 
 
     }

@@ -47,7 +47,7 @@ app.service('expenseService', function ($rootScope) {
         }
 
 
-        console.log(categories);
+        // console.log(categories);
 
         let labels = [];
         let data = [];
