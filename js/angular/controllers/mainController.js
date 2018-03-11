@@ -98,6 +98,9 @@ app.controller("mainController", function ($scope, $fancyModal, $rootScope, expe
             $scope.labels = expenseService.refreshChart().labels;
             $scope.data = expenseService.refreshChart().data;
 
+            console.log($scope.labels);
+            console.log($scope.data);
+
 
 
 
